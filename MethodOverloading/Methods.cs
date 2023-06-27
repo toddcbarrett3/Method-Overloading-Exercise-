@@ -31,7 +31,7 @@ namespace MethodOverloading
             }
             else
             {
-                return "";
+                return Convert.ToString($"{num1 + num2}");
             }
         }
     }
